@@ -54,26 +54,23 @@ widgets:
 jsonContent:
   searchLocal: true
   searchGoogle: false
-  pages:
-    title: true
-    slug: true
-    date: true
-    updated: true
-    comments: true
-    path: true
-    link: true
-    permalink: true
-    excerpt: true
-    keywords: true # but only if root keywords option language was set
-    text: true
+  meta: false
+  pages: false
+  posts:
+    title: true #文章标题
+    date: true #发表日期
+    path: true #路径
+    text: true #文本字段
     raw: false
     content: false
-  posts:
-    title: true
-    text: true
-    content: true
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
     categories: false
-    tags: false
+    tags: true #标签
 
 ## 网站公告设置
 notification: |-
