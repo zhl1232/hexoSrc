@@ -54,6 +54,20 @@ widgets:
 jsonContent:
   searchLocal: true
   searchGoogle: false
+  pages:
+    title: true
+    slug: true
+    date: true
+    updated: true
+    comments: true
+    path: true
+    link: true
+    permalink: true
+    excerpt: true
+    keywords: true # but only if root keywords option language was set
+    text: true
+    raw: false
+    content: false
   posts:
     title: true
     text: true
